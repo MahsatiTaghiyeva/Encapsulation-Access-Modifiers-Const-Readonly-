@@ -13,4 +13,12 @@ internal class Doctor
         Email = email;
         Address = address;
     }
+    public void GetInfo()
+    {
+        Console.WriteLine($"Full Name: {FullName}");
+        Console.WriteLine($"Age: {Age}");
+        Console.WriteLine($"Email: {Email}");
+        Console.WriteLine($"Address: {Address}");
+        Console.WriteLine("-----------------------------------");
+    }
 }
